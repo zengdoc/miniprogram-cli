@@ -1,0 +1,23 @@
+{
+  "name": "miniprogram-cli",
+  "version": "1.0.0",
+  "description": "cli",
+  "main": "",
+  "license": "ISC",
+  "scripts": {
+    "serve": "gulp serve",
+    "build": "gulp build",
+    "install": "node gulp/install"
+  },
+  "devDependencies": {
+    "del": "^3.0.0",
+    "fs-extra": "^9.1.0",
+    "gulp": "^4.0.0",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-less": "^3.0.2",
+    "gulp-rename": "^1.2.2",
+    "gulp-wechat-weapp-src-alisa": "^1.0.4"
+  },
+  "dependencies": {}
+}
